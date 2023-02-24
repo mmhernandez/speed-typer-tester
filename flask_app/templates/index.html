@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speedy Typer</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <!-- <link rel="stylesheet" type="text/css" href="../static/css/style.css"> -->
+</head>
+<body class="bg-cover-image h-100 text-center text-bg-dark">
+    <div class="container d-flex gap-5 w-100 h-100 p-3 mx-auto">
+        <div class="bg-light-opaque-dk rounded w-75 p-5">
+            <p class="fs-3">How fast can you type?</p>
+            <p>When you're ready to start the test, click the <span class="fw-bold">Start</span> button.</p>
+            <p>We'll start the timer and find out how many words per minut (wpm) you type.</p>
+        </div>
+        <div class="bg-light-opaque-lt rounded w-25 p-5">
+            <p class="fs-3 pb-2 border-bottom">Scoreboard</p>
+        </div>
+    </div>
+    
+    <footer class="footer mt-auto bg-seafoam pt-2 w-100">
+        <div class="d-flex w-100 h-75 gap-5 cover-container mx-auto bg-seafoam">
+            <img src="{{ url_for('static', filename='images/MH-logo-light.png') }}" alt="" class="fload-md-start footer-logo">
+            <div class="float-md-end mx-auto">
+                <p>Created with &#9825 by Melissa Herhandez</p>
+                <p>Source code available on <a class="link text-light" target="_blank" href="#">GitHub</a></p>
+                <div class="socials">
+                    <p>
+                        <a href="https://github.com/mmhernandez" target="_blank"><img src="https://skillicons.dev/icons?i=github" alt="github" class="footer-social"></a>
+                        <a href="https://www.linkedin.com/in/melissa-dangelo-hernandez/" target="_blank"><img src="https://skillicons.dev/icons?i=linkedin" alt="linkedin" class="footer-social"></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

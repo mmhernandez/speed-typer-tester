@@ -1,0 +1,38 @@
+
+
+.bg-cover-image {
+    background: url(../images/keyboard_keys.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.cover-container {
+    max-width: 42em;
+}
+
+.bg-light-opaque-lt {
+    background-color: #f8f9fa !important;
+    opacity: 85%;
+}
+.bg-light-opaque-dk {
+    background-color: #f8f9fa !important;
+    opacity: 90%;
+}
+
+
+
+
+/* footer */
+/* .container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+} */
+.footer-logo{
+    width: 100px;
+    height: 100px;
+}
+.footer-social {
+    width: 20px;
+}
+.bg-seafoam {
+    background-color: rgb(81, 187, 143) !important;
+}
